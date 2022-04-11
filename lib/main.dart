@@ -18,7 +18,7 @@ import 'package:flutter/services.dart';
      return MaterialApp(
        title: 'Material App',
        debugShowCheckedModeBanner: false,
-       initialRoute: 'scroll_screen',
+       initialRoute: 'home_screen',
        theme: ThemeData.dark(),
        routes: {
          'basic_design':(_)=> const BasicDesignScreen(),
